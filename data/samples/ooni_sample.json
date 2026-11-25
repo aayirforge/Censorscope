@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "source": "OONI Web Connectivity Synthesized Indian Telemetry",
+    "probe_cc": "IN",
+    "note": "Representative sample illustrating blocking technique signatures"
+  },
+  "results": [
+    {
+      "domain": "https://example-blocked-news.org",
+      "probe_asn": "AS55836",
+      "anomaly": true,
+      "dns_consistency": "inconsistent",
+      "tcp_connect": "successful",
+      "http_failure": null,
+      "blocking": "dns",
+      "measurement_id": "ooni-sample-in-001",
+      "measurement_start_time": "2026-03-01T10:00:00Z"
+    },
+    {
+      "domain": "https://example-blocked-forum.net",
+      "probe_asn": "AS45609",
+      "anomaly": true,
+      "dns_consistency": "consistent",
+      "tcp_connect": "connection_refused_error",
+      "http_failure": null,
+      "blocking": "tcp_reset",
+      "measurement_id": "ooni-sample-in-002",
+      "measurement_start_time": "2026-03-01T10:05:00Z"
+    },
+    {
+      "domain": "https://example-gov-redirect.org",
+      "probe_asn": "AS9829",
+      "anomaly": true,
+      "dns_consistency": "consistent",
+      "tcp_connect": "successful",
+      "http_failure": "http_diff_failure",
+      "blocking": "http-diff",
+      "measurement_id": "ooni-sample-in-003",
+      "measurement_start_time": "2026-03-01T10:10:00Z"
+    },
+    {
+      "domain": "https://wikipedia.org",
+      "probe_asn": "AS55836",
+      "anomaly": false,
+      "dns_consistency": "consistent",
+      "tcp_connect": "successful",
+      "http_failure": null,
+      "blocking": "none",
+      "measurement_id": "ooni-sample-in-004",
+      "measurement_start_time": "2026-03-01T10:15:00Z"
+    }
+  ]
+}

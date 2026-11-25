@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "onchain_batch_id": 0,
+    "merkle_root": "0xd724d174ce62908bbfbf1ee5f2d5f23f30a2d2ea100a688fb252d5e05f1023de",
+    "ipfs_cid": "mock-bafy-bd6c594ae7507f0efa8f5ada349b5635",
+    "record_count": 5,
+    "from_timestamp": "2026-11-09T16:16:23",
+    "to_timestamp": "2026-11-21T04:50:35",
+    "tx_hash": "0xab9f8f8e9fff8ed825bd706eaabdc1628e2a802c5952775f11a0a6b22a1123e3",
+    "block_number": 2,
+    "chain_id": 31337,
+    "contract_address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "is_mock_storage": true,
+    "created_at": "2026-11-24T12:38:42.862947"
+  }
+]

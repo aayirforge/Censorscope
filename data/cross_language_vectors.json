@@ -1,0 +1,407 @@
+{
+  "merkle_root": "0xa0600dc73ad41efaf4541427d0433b78b93bb3687fd2cefb074c42b58d0a49e0",
+  "total_records": 20,
+  "vectors": [
+    {
+      "record": {
+        "id": 1,
+        "domain": "wikipedia.org",
+        "asn": 55836,
+        "anomaly": false,
+        "score": 0.0,
+        "null_val": null
+      },
+      "canonical_json": "{\"anomaly\":false,\"asn\":55836,\"domain\":\"wikipedia.org\",\"id\":1,\"null_val\":null,\"score\":0}",
+      "leaf_hash": "0xe2970f107597a416507b4737363a1500736e34e1fed13732b55f899244633c1b",
+      "proof": [
+        "0xa19ffa8a1836955829ba664f4a5887ec08179575e22639a867a29211d94c08e4",
+        "0x2af770df7f0525a7668c683680e4ae71c73527a380f06d286262fac239f4b8af",
+        "0x833c0812172d1e569a138557ae263c9a8cd05ad59c4e700f14d38025f81ff12c",
+        "0x074065dda1f162381df225ddc4f3a27189f3663f3627f70d12eb7b0645562ae7",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 2,
+        "domain": "thepiratebay.org",
+        "asn": 55836,
+        "anomaly": true,
+        "score": 0.95,
+        "tags": [
+          "copyright",
+          "dot"
+        ]
+      },
+      "canonical_json": "{\"anomaly\":true,\"asn\":55836,\"domain\":\"thepiratebay.org\",\"id\":2,\"score\":0.95,\"tags\":[\"copyright\",\"dot\"]}",
+      "leaf_hash": "0xa19ffa8a1836955829ba664f4a5887ec08179575e22639a867a29211d94c08e4",
+      "proof": [
+        "0xe2970f107597a416507b4737363a1500736e34e1fed13732b55f899244633c1b",
+        "0x2af770df7f0525a7668c683680e4ae71c73527a380f06d286262fac239f4b8af",
+        "0x833c0812172d1e569a138557ae263c9a8cd05ad59c4e700f14d38025f81ff12c",
+        "0x074065dda1f162381df225ddc4f3a27189f3663f3627f70d12eb7b0645562ae7",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 3,
+        "domain": "विकिपीडिया.org",
+        "asn": 9498,
+        "anomaly": false,
+        "unicode_str": "सत्यापन",
+        "large_int": 9007199254740991
+      },
+      "canonical_json": "{\"anomaly\":false,\"asn\":9498,\"domain\":\"विकिपीडिया.org\",\"id\":3,\"large_int\":9007199254740991,\"unicode_str\":\"सत्यापन\"}",
+      "leaf_hash": "0xeda2e8d9fa7c7791092daff8370f5c0aa56f3bc59f8a6b2c235d53c225a869f0",
+      "proof": [
+        "0x070294636801011317903a536b4fe00cfbfa04f7a545b761f4a0af4900378daf",
+        "0x338be7a2e024f4fd811399c5df30d62ccf841278e6b9f3c70e626c231912677e",
+        "0x833c0812172d1e569a138557ae263c9a8cd05ad59c4e700f14d38025f81ff12c",
+        "0x074065dda1f162381df225ddc4f3a27189f3663f3627f70d12eb7b0645562ae7",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 4,
+        "domain": "1337x.to",
+        "asn": 45609,
+        "anomaly": true,
+        "score": 0.875,
+        "details": {
+          "sub_key": "val",
+          "flag": true
+        }
+      },
+      "canonical_json": "{\"anomaly\":true,\"asn\":45609,\"details\":{\"flag\":true,\"sub_key\":\"val\"},\"domain\":\"1337x.to\",\"id\":4,\"score\":0.875}",
+      "leaf_hash": "0x070294636801011317903a536b4fe00cfbfa04f7a545b761f4a0af4900378daf",
+      "proof": [
+        "0xeda2e8d9fa7c7791092daff8370f5c0aa56f3bc59f8a6b2c235d53c225a869f0",
+        "0x338be7a2e024f4fd811399c5df30d62ccf841278e6b9f3c70e626c231912677e",
+        "0x833c0812172d1e569a138557ae263c9a8cd05ad59c4e700f14d38025f81ff12c",
+        "0x074065dda1f162381df225ddc4f3a27189f3663f3627f70d12eb7b0645562ae7",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 5,
+        "domain": "libgen.is",
+        "asn": 24560,
+        "anomaly": true,
+        "rates": [
+          1.5,
+          2.25,
+          3.125
+        ],
+        "verified": true
+      },
+      "canonical_json": "{\"anomaly\":true,\"asn\":24560,\"domain\":\"libgen.is\",\"id\":5,\"rates\":[1.5,2.25,3.125],\"verified\":true}",
+      "leaf_hash": "0x81b33f6b3a45424569c4e891a759ef901142bb0b70fc85e9a21280db451441e7",
+      "proof": [
+        "0xdcae5c7246adbe8cd9f5da6fe6ab1069a279f442a58150aae3beb60ee408dc0c",
+        "0x6e29c7d44cbc082ed3fdc53e467f9c676d00e1033cb009b4be6381a5fd91a704",
+        "0xa7181bd45cec5756dd075b3bd2ae1be7d9ccb0518ef61999a9d1b2f6d79c8ea9",
+        "0x074065dda1f162381df225ddc4f3a27189f3663f3627f70d12eb7b0645562ae7",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 6,
+        "domain": "bbc.com",
+        "asn": 55836,
+        "anomaly": false,
+        "meta": {
+          "empty_arr": [],
+          "empty_obj": {}
+        }
+      },
+      "canonical_json": "{\"anomaly\":false,\"asn\":55836,\"domain\":\"bbc.com\",\"id\":6,\"meta\":{\"empty_arr\":[],\"empty_obj\":{}}}",
+      "leaf_hash": "0xdcae5c7246adbe8cd9f5da6fe6ab1069a279f442a58150aae3beb60ee408dc0c",
+      "proof": [
+        "0x81b33f6b3a45424569c4e891a759ef901142bb0b70fc85e9a21280db451441e7",
+        "0x6e29c7d44cbc082ed3fdc53e467f9c676d00e1033cb009b4be6381a5fd91a704",
+        "0xa7181bd45cec5756dd075b3bd2ae1be7d9ccb0518ef61999a9d1b2f6d79c8ea9",
+        "0x074065dda1f162381df225ddc4f3a27189f3663f3627f70d12eb7b0645562ae7",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 7,
+        "domain": "nyt.com",
+        "asn": 55836,
+        "anomaly": false,
+        "score": 0.125,
+        "active": false
+      },
+      "canonical_json": "{\"active\":false,\"anomaly\":false,\"asn\":55836,\"domain\":\"nyt.com\",\"id\":7,\"score\":0.125}",
+      "leaf_hash": "0x8a77c56fff02c223a33803e5c28b1ec2148cc14cc1038d5eae32edf6b76d7afa",
+      "proof": [
+        "0x1e1418596565af81fa81679c3dcf4cd899eae831d3dbab972a79b93aa120a1e7",
+        "0x50b06c27d1d2b0e9e350562142cfa2577541362d4f49cc57a9e22ca156a96ba4",
+        "0xa7181bd45cec5756dd075b3bd2ae1be7d9ccb0518ef61999a9d1b2f6d79c8ea9",
+        "0x074065dda1f162381df225ddc4f3a27189f3663f3627f70d12eb7b0645562ae7",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 8,
+        "domain": "telegram.org",
+        "asn": 9498,
+        "anomaly": false,
+        "nested": {
+          "a": {
+            "b": {
+              "c": "deep"
+            }
+          }
+        }
+      },
+      "canonical_json": "{\"anomaly\":false,\"asn\":9498,\"domain\":\"telegram.org\",\"id\":8,\"nested\":{\"a\":{\"b\":{\"c\":\"deep\"}}}}",
+      "leaf_hash": "0x1e1418596565af81fa81679c3dcf4cd899eae831d3dbab972a79b93aa120a1e7",
+      "proof": [
+        "0x8a77c56fff02c223a33803e5c28b1ec2148cc14cc1038d5eae32edf6b76d7afa",
+        "0x50b06c27d1d2b0e9e350562142cfa2577541362d4f49cc57a9e22ca156a96ba4",
+        "0xa7181bd45cec5756dd075b3bd2ae1be7d9ccb0518ef61999a9d1b2f6d79c8ea9",
+        "0x074065dda1f162381df225ddc4f3a27189f3663f3627f70d12eb7b0645562ae7",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 9,
+        "domain": "signal.org",
+        "asn": 55836,
+        "anomaly": false,
+        "large_int_2": 123456789012345
+      },
+      "canonical_json": "{\"anomaly\":false,\"asn\":55836,\"domain\":\"signal.org\",\"id\":9,\"large_int_2\":123456789012345}",
+      "leaf_hash": "0xe26214c00c06c883b5b441b52d24c8ad39f06d542a4a577827a621a28b58c2ad",
+      "proof": [
+        "0xda9fbfb398e6f1d1e60187aff3187c0f263c9a1d1ec12bc851ebafd708f233d2",
+        "0x5bd41372284cfab168589161242c356550de26dc71ab275d18d9348d5a9506e5",
+        "0xc72fd971c96768868dd91cf673f8881bd4ff998f8d87a9493a61d3468747dd5e",
+        "0x654687f314fb995c217d9a38684b1cc05d3f9c13e27190b637ff6aa21ad65b1c",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 10,
+        "domain": "cloudflare.com",
+        "asn": 13335,
+        "anomaly": false,
+        "ipv6_ref": "2606:4700::6810:85e5"
+      },
+      "canonical_json": "{\"anomaly\":false,\"asn\":13335,\"domain\":\"cloudflare.com\",\"id\":10,\"ipv6_ref\":\"2606:4700::6810:85e5\"}",
+      "leaf_hash": "0xda9fbfb398e6f1d1e60187aff3187c0f263c9a1d1ec12bc851ebafd708f233d2",
+      "proof": [
+        "0xe26214c00c06c883b5b441b52d24c8ad39f06d542a4a577827a621a28b58c2ad",
+        "0x5bd41372284cfab168589161242c356550de26dc71ab275d18d9348d5a9506e5",
+        "0xc72fd971c96768868dd91cf673f8881bd4ff998f8d87a9493a61d3468747dd5e",
+        "0x654687f314fb995c217d9a38684b1cc05d3f9c13e27190b637ff6aa21ad65b1c",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 11,
+        "domain": "google.com",
+        "asn": 15169,
+        "anomaly": false,
+        "nulls": [
+          null,
+          null
+        ],
+        "bools": [
+          true,
+          false
+        ]
+      },
+      "canonical_json": "{\"anomaly\":false,\"asn\":15169,\"bools\":[true,false],\"domain\":\"google.com\",\"id\":11,\"nulls\":[null,null]}",
+      "leaf_hash": "0x4b8b16b5e9dd12c319644c937c399a1fa838c503fc8dc3000ec697b7e6e52aeb",
+      "proof": [
+        "0x582ef133cf1b41fbcaadd47a94d2c79527b7da99b9a1eb01ff59745bfe58ce7c",
+        "0xfa356086b7444a686e5b95b810394514d6c2f0fcc21db43b2bf8bbbeebd21594",
+        "0xc72fd971c96768868dd91cf673f8881bd4ff998f8d87a9493a61d3468747dd5e",
+        "0x654687f314fb995c217d9a38684b1cc05d3f9c13e27190b637ff6aa21ad65b1c",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 12,
+        "domain": "duckduckgo.com",
+        "asn": 55836,
+        "anomaly": false,
+        "escape_test": "quotes \" and \\ slashes"
+      },
+      "canonical_json": "{\"anomaly\":false,\"asn\":55836,\"domain\":\"duckduckgo.com\",\"escape_test\":\"quotes \\\" and \\\\ slashes\",\"id\":12}",
+      "leaf_hash": "0x582ef133cf1b41fbcaadd47a94d2c79527b7da99b9a1eb01ff59745bfe58ce7c",
+      "proof": [
+        "0x4b8b16b5e9dd12c319644c937c399a1fa838c503fc8dc3000ec697b7e6e52aeb",
+        "0xfa356086b7444a686e5b95b810394514d6c2f0fcc21db43b2bf8bbbeebd21594",
+        "0xc72fd971c96768868dd91cf673f8881bd4ff998f8d87a9493a61d3468747dd5e",
+        "0x654687f314fb995c217d9a38684b1cc05d3f9c13e27190b637ff6aa21ad65b1c",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 13,
+        "domain": "archive.org",
+        "asn": 9498,
+        "anomaly": true,
+        "tech": "http_block_page",
+        "code": 403
+      },
+      "canonical_json": "{\"anomaly\":true,\"asn\":9498,\"code\":403,\"domain\":\"archive.org\",\"id\":13,\"tech\":\"http_block_page\"}",
+      "leaf_hash": "0x0748e803efecd2076d0ac9be3608f40505d69cb0d6274648e1fcb2166d57ae4e",
+      "proof": [
+        "0x5e1c1f7e02dad35c259c2a2c4d83fa344b687bc958586773b30787221dd63f6d",
+        "0xa8a869c4986126680ee39310c18770e876e4eca156f0e422791b2341816da489",
+        "0xa07f8547e74a9a29ee258aa42a1560c219262e639b45311e2a46a48e440292b7",
+        "0x654687f314fb995c217d9a38684b1cc05d3f9c13e27190b637ff6aa21ad65b1c",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 14,
+        "domain": "torproject.org",
+        "asn": 55836,
+        "anomaly": true,
+        "tech": "tls_sni_filtering"
+      },
+      "canonical_json": "{\"anomaly\":true,\"asn\":55836,\"domain\":\"torproject.org\",\"id\":14,\"tech\":\"tls_sni_filtering\"}",
+      "leaf_hash": "0x5e1c1f7e02dad35c259c2a2c4d83fa344b687bc958586773b30787221dd63f6d",
+      "proof": [
+        "0x0748e803efecd2076d0ac9be3608f40505d69cb0d6274648e1fcb2166d57ae4e",
+        "0xa8a869c4986126680ee39310c18770e876e4eca156f0e422791b2341816da489",
+        "0xa07f8547e74a9a29ee258aa42a1560c219262e639b45311e2a46a48e440292b7",
+        "0x654687f314fb995c217d9a38684b1cc05d3f9c13e27190b637ff6aa21ad65b1c",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 15,
+        "domain": "proton.me",
+        "asn": 45609,
+        "anomaly": false,
+        "unicode_multilingual": "Русский, 中文, 日本語, العربية"
+      },
+      "canonical_json": "{\"anomaly\":false,\"asn\":45609,\"domain\":\"proton.me\",\"id\":15,\"unicode_multilingual\":\"Русский, 中文, 日本語, العربية\"}",
+      "leaf_hash": "0x92902996385c9f13557c4904e667b74193ed9ccd2ef72c665c2e9414039a85ed",
+      "proof": [
+        "0x6c0a88a152fb0a9b502762e466c29ca479bc48ac72c794f491d12f2d68a39621",
+        "0xc38b3eff85b734d22cd7a665d06dd4dd21d11b55a5109a12fcddeda72adfe1c2",
+        "0xa07f8547e74a9a29ee258aa42a1560c219262e639b45311e2a46a48e440292b7",
+        "0x654687f314fb995c217d9a38684b1cc05d3f9c13e27190b637ff6aa21ad65b1c",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 16,
+        "domain": "github.com",
+        "asn": 55836,
+        "anomaly": false,
+        "stats": {
+          "zero": 0,
+          "neg": -1,
+          "float_zero": 0.0
+        }
+      },
+      "canonical_json": "{\"anomaly\":false,\"asn\":55836,\"domain\":\"github.com\",\"id\":16,\"stats\":{\"float_zero\":0,\"neg\":-1,\"zero\":0}}",
+      "leaf_hash": "0x6c0a88a152fb0a9b502762e466c29ca479bc48ac72c794f491d12f2d68a39621",
+      "proof": [
+        "0x92902996385c9f13557c4904e667b74193ed9ccd2ef72c665c2e9414039a85ed",
+        "0xc38b3eff85b734d22cd7a665d06dd4dd21d11b55a5109a12fcddeda72adfe1c2",
+        "0xa07f8547e74a9a29ee258aa42a1560c219262e639b45311e2a46a48e440292b7",
+        "0x654687f314fb995c217d9a38684b1cc05d3f9c13e27190b637ff6aa21ad65b1c",
+        "0xb15cc944f53e50edc9ddc9fb36a24be64cfa835cedbc4c394e5adc18b0ac2078"
+      ]
+    },
+    {
+      "record": {
+        "id": 17,
+        "domain": "reddit.com",
+        "asn": 9498,
+        "anomaly": false,
+        "z_first": 1,
+        "a_last": 2
+      },
+      "canonical_json": "{\"a_last\":2,\"anomaly\":false,\"asn\":9498,\"domain\":\"reddit.com\",\"id\":17,\"z_first\":1}",
+      "leaf_hash": "0x3963e8f67db158782d81650ad02d1d014bc12584345586a54ef50cd9ba29c14f",
+      "proof": [
+        "0xcbfe5c51984a6fe96ceac2ffd6e8823dee15ccaec8061a8811cc32f0abdd46c9",
+        "0xb42669ac3db5417d5087c1ed9a0ef969554afb782bae65b560190d14db494c74",
+        "0x8fd8b3d21ea4e4730fd073174149b15f8745c6764c7d17af40cf6cd18c146a75",
+        "0x4f1b31288f588f3696f2cd1bd02437c561530122833d0a39ae1f8be1319e8b1a",
+        "0xd6d2e717eb333318412247da92026da1f89aad99006e54b7396ef7c947e2a12b"
+      ]
+    },
+    {
+      "record": {
+        "id": 18,
+        "domain": "vimeo.com",
+        "asn": 55836,
+        "anomaly": true,
+        "tech": "dns_tampering",
+        "ips": [
+          "127.0.0.1"
+        ]
+      },
+      "canonical_json": "{\"anomaly\":true,\"asn\":55836,\"domain\":\"vimeo.com\",\"id\":18,\"ips\":[\"127.0.0.1\"],\"tech\":\"dns_tampering\"}",
+      "leaf_hash": "0xcbfe5c51984a6fe96ceac2ffd6e8823dee15ccaec8061a8811cc32f0abdd46c9",
+      "proof": [
+        "0x3963e8f67db158782d81650ad02d1d014bc12584345586a54ef50cd9ba29c14f",
+        "0xb42669ac3db5417d5087c1ed9a0ef969554afb782bae65b560190d14db494c74",
+        "0x8fd8b3d21ea4e4730fd073174149b15f8745c6764c7d17af40cf6cd18c146a75",
+        "0x4f1b31288f588f3696f2cd1bd02437c561530122833d0a39ae1f8be1319e8b1a",
+        "0xd6d2e717eb333318412247da92026da1f89aad99006e54b7396ef7c947e2a12b"
+      ]
+    },
+    {
+      "record": {
+        "id": 19,
+        "domain": "dailymotion.com",
+        "asn": 45609,
+        "anomaly": true,
+        "count": 42
+      },
+      "canonical_json": "{\"anomaly\":true,\"asn\":45609,\"count\":42,\"domain\":\"dailymotion.com\",\"id\":19}",
+      "leaf_hash": "0x7ba3c4b0dbbd30fa61f19e7c539e5e3effa4e50647325c075d3287f3f7d33353",
+      "proof": [
+        "0x3bd6cad9527ac584d3cb32f8f7058816b672e5336d6f1167cb8a396d0f58d363",
+        "0x1d373ae8763a91ce9b224e476547709180e02f91116bc7521b47d2708d11d3a7",
+        "0x8fd8b3d21ea4e4730fd073174149b15f8745c6764c7d17af40cf6cd18c146a75",
+        "0x4f1b31288f588f3696f2cd1bd02437c561530122833d0a39ae1f8be1319e8b1a",
+        "0xd6d2e717eb333318412247da92026da1f89aad99006e54b7396ef7c947e2a12b"
+      ]
+    },
+    {
+      "record": {
+        "id": 20,
+        "domain": "pastebin.com",
+        "asn": 55836,
+        "anomaly": true,
+        "ratio": 0.6666666666666666
+      },
+      "canonical_json": "{\"anomaly\":true,\"asn\":55836,\"domain\":\"pastebin.com\",\"id\":20,\"ratio\":0.6666666666666666}",
+      "leaf_hash": "0x3bd6cad9527ac584d3cb32f8f7058816b672e5336d6f1167cb8a396d0f58d363",
+      "proof": [
+        "0x7ba3c4b0dbbd30fa61f19e7c539e5e3effa4e50647325c075d3287f3f7d33353",
+        "0x1d373ae8763a91ce9b224e476547709180e02f91116bc7521b47d2708d11d3a7",
+        "0x8fd8b3d21ea4e4730fd073174149b15f8745c6764c7d17af40cf6cd18c146a75",
+        "0x4f1b31288f588f3696f2cd1bd02437c561530122833d0a39ae1f8be1319e8b1a",
+        "0xd6d2e717eb333318412247da92026da1f89aad99006e54b7396ef7c947e2a12b"
+      ]
+    }
+  ]
+}

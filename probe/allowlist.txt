@@ -1,0 +1,26 @@
+# CensorScope Curated Probe Allowlist
+# Probes will REFUSE to execute measurements against any target not explicitly listed below.
+# Contains only benign, educational, informational, and curated testing targets.
+thepiratebay.org
+1337x.to
+libgen.is
+sci-hub.se
+wikipedia.org
+github.com
+eff.org
+thewire.in
+nytimes.com
+bbc.com
+who.int
+un.org
+india.gov.in
+reddit.com
+twitter.com
+signal.org
+whatsapp.com
+google.com
+duckduckgo.com
+archive.org
+weibo.com
+tiktok.com
+vimeo.com

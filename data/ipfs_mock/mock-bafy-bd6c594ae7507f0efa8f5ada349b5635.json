@@ -1,0 +1,88 @@
+{
+  "merkle_root": "0xd724d174ce62908bbfbf1ee5f2d5f23f30a2d2ea100a688fb252d5e05f1023de",
+  "from_timestamp": 1794221183,
+  "to_timestamp": 1795216835,
+  "record_count": 5,
+  "records": [
+    {
+      "id": 677,
+      "source": "ooni",
+      "domain": "sci-hub.se",
+      "asn": 1,
+      "measured_at": "2026-11-09T16:16:23Z",
+      "technique": "dns_tampering",
+      "anomaly": true,
+      "signals": {
+        "dns_tampering": true,
+        "tcp_reset": false,
+        "tls_sni_failure": false,
+        "http_failure": false
+      },
+      "ingested_at": "2026-11-24T05:48:24Z"
+    },
+    {
+      "id": 676,
+      "source": "ooni",
+      "domain": "sci-hub.se",
+      "asn": 1,
+      "measured_at": "2026-11-10T07:04:39Z",
+      "technique": "dns_tampering",
+      "anomaly": true,
+      "signals": {
+        "dns_tampering": true,
+        "tcp_reset": false,
+        "tls_sni_failure": false,
+        "http_failure": false
+      },
+      "ingested_at": "2026-11-24T05:48:24Z"
+    },
+    {
+      "id": 450,
+      "source": "ooni",
+      "domain": "indianexpress.com",
+      "asn": 38,
+      "measured_at": "2026-11-20T21:34:24Z",
+      "technique": "unknown",
+      "anomaly": false,
+      "signals": {
+        "dns_tampering": false,
+        "tcp_reset": false,
+        "tls_sni_failure": false,
+        "http_failure": false
+      },
+      "ingested_at": "2026-11-24T05:47:30Z"
+    },
+    {
+      "id": 449,
+      "source": "ooni",
+      "domain": "indianexpress.com",
+      "asn": 1,
+      "measured_at": "2026-11-21T04:49:55Z",
+      "technique": "unknown",
+      "anomaly": false,
+      "signals": {
+        "dns_tampering": false,
+        "tcp_reset": false,
+        "tls_sni_failure": false,
+        "http_failure": false
+      },
+      "ingested_at": "2026-11-24T05:47:30Z"
+    },
+    {
+      "id": 448,
+      "source": "ooni",
+      "domain": "indianexpress.com",
+      "asn": 1,
+      "measured_at": "2026-11-21T04:50:35Z",
+      "technique": "unknown",
+      "anomaly": false,
+      "signals": {
+        "dns_tampering": false,
+        "tcp_reset": false,
+        "tls_sni_failure": false,
+        "http_failure": false
+      },
+      "ingested_at": "2026-11-24T05:47:30Z"
+    }
+  ]
+}

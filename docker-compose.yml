@@ -1,0 +1,67 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: censorscope_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-censorscope_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-censorscope_local_secret_change_me}
+      POSTGRES_DB: ${POSTGRES_DB:-censorscope_db}
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5435}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-censorscope_user} -d ${POSTGRES_DB:-censorscope_db}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: censorscope_redis
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Isolated fetcher/probe worker:
+  # - No database or redis network access
+  # - Read-only root filesystem
+  # - All Linux capabilities dropped
+  # - Runs as unprivileged non-root user (nobody:nogroup)
+  # - Isolated bridge network with egress only
+  fetcher_isolated:
+    image: python:3.10-alpine
+    container_name: censorscope_isolated_fetcher
+    restart: "no"
+    user: "65534:65534"  # nobody:nogroup
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - isolated_egress
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m
+    command: ["python", "-c", "print('SSRF Isolated sandbox initialized safely.')"]
+
+networks:
+  default:
+    driver: bridge
+  isolated_egress:
+    driver: bridge
+    internal: false
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local

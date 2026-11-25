@@ -1,0 +1,16 @@
+asn,isp,organization,verification_status,source,notes
+55836,Jio,Reliance Jio Infocomm Limited,confirmed,APNIC WHOIS & https://bgp.he.net/AS55836,Major Indian mobile & FTTH network (as-name: RELIANCEJIO-IN)
+45609,Airtel,Bharti Airtel Limited,confirmed,APNIC WHOIS & https://bgp.he.net/AS45609,Major Indian mobile network (as-name: BHARTI-MOBILITY-AS-AP)
+9498,Airtel,Bharti Airtel Enterprise,confirmed,APNIC WHOIS & https://bgp.he.net/AS9498,Bharti Airtel broadband & transit backbone (as-name: BBIL-AP)
+134106,Vodafone Idea,Vodafone Idea Limited,confirmed,APNIC WHOIS & https://bgp.he.net/AS134106,Vodafone Idea consumer cellular network (as-name: VODAFONEIDEA-IN)
+9829,BSNL,National Internet Backbone (BSNL),confirmed,APNIC WHOIS & https://bgp.he.net/AS9829,State-owned telecom & national backbone (as-name: BSNL-NIB-AP)
+4758,MTNL,Mahanagar Telephone Nigam Limited,confirmed,APNIC WHOIS & https://bgp.he.net/AS4758,State-owned telecom for Mumbai and Delhi (as-name: MTNL-AP)
+24309,ACT Fibernet,Atria Convergence Technologies,confirmed,APNIC WHOIS & https://bgp.he.net/AS24309,Major south & metro FTTH broadband ISP (as-name: ACT-AS-AP)
+17488,Hathway,Hathway Cable and Datacom Limited,confirmed,APNIC WHOIS & https://bgp.he.net/AS17488,Major cable broadband provider (as-name: HATHWAY-IN)
+4755,Tata Communications,Tata Communications Limited,confirmed,APNIC WHOIS & https://bgp.he.net/AS4755,Major Indian transit & backbone network (as-name: VSNL-AS-AP)
+18101,Tata Play,Tata Teleservices / Tata Play Fiber,confirmed,APNIC WHOIS & https://bgp.he.net/AS18101,Consumer direct broadband ISP (as-name: TATA-TELESERVICES-IN)
+140026,Vodafone Idea,Vodafone Idea Business,needs_verification,Pending telemetry volume verification,Enterprise routing partition; verify consumer probe distribution
+55644,Vodafone Idea,Vodafone Idea Retail,needs_verification,Pending telemetry volume verification,Secondary retail partition; check probe traffic share
+133982,Excitel,Excitel Broadband Private Limited,needs_verification,Pending telemetry volume verification,Regional FTTH ISP in north India; verify probe coverage
+135835,Alliance Broadband,Alliance Broadband Services,needs_verification,Pending telemetry volume verification,Regional ISP in eastern India (Kolkata); verify probe coverage
+136694,Jio Satellite,Jio Satellite Communications,needs_verification,Pending telemetry volume verification,Satellite entity; currently limited empirical ground probes

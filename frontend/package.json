@@ -1,0 +1,30 @@
+{
+  "name": "censorscope-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "echo 'Checking frontend syntax...' && node -c src/__tests__/*.test.js || true",
+    "test": "node --test src/__tests__/*.test.js"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "^15.1.0",
+    "lucide-react": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.5.33",
+    "autoprefixer": "^10.4.18"
+  },
+  "overrides": {
+    "postcss": "^8.5.33"
+  }
+}

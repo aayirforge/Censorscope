@@ -1,0 +1,57 @@
+{
+  "version": "1.1.0",
+  "updated_at": "2026-11-24T06:20:00Z",
+  "source": "Empirically audited against real CensorScope PostgreSQL measurements",
+  "fingerprints": [
+    {
+      "id": "IN-FP-DNS-001",
+      "name": "ooni.in_dns_8",
+      "type": "dns_fingerprint",
+      "location": "dns",
+      "scope": "isp",
+      "expected_countries": ["IN"],
+      "description": "Indian ISP DNS tampering signature redirecting to block page resolver IP (observed on AS24309 and AS24560)",
+      "evidence": "20261123220512.010632_IN_webconnectivity_e963b1a6b1c95aba"
+    },
+    {
+      "id": "IN-FP-DNS-002",
+      "name": "ooni.in_dns_6",
+      "type": "dns_fingerprint",
+      "location": "dns",
+      "scope": "isp",
+      "expected_countries": ["IN"],
+      "description": "Indian ISP DNS synthetic response / NXDOMAIN injection signature",
+      "evidence": "20261123193343.124215_IN_webconnectivity_f07f8b326abbe652"
+    },
+    {
+      "id": "IN-FP-HTTP-001",
+      "name": "dot_statutory_notice",
+      "type": "body_pattern",
+      "pattern": "(?i)(blocked as per the instructions of (the )?Department of Telecommunications|directions from Department of Telecommunications|under the directions of Hon'ble Court)",
+      "description": "Standard Department of Telecommunications (DoT) statutory blocking text notice",
+      "evidence": "unverified"
+    },
+    {
+      "id": "IN-FP-HTTP-002",
+      "name": "it_act_69a_notice",
+      "type": "body_pattern",
+      "pattern": "(?i)(section 69a of (the )?information technology act|blocked under compliance with order of the competent authority)",
+      "description": "Section 69A Information Technology Act statutory block order reference",
+      "evidence": "unverified"
+    },
+    {
+      "id": "IN-FP-REDIRECT-001",
+      "name": "isp_block_redirect_hosts",
+      "type": "redirect_host",
+      "hosts": [
+        "warning.airtel.in",
+        "block.airtel.in",
+        "notice.jio.com",
+        "alert.tatasky.com",
+        "advisory.mtnl.net.in"
+      ],
+      "description": "Known Indian ISP HTTP 302/307 redirect host destinations",
+      "evidence": "unverified"
+    }
+  ]
+}
